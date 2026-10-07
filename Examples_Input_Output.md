@@ -1,3 +1,6 @@
+############# 1. the First workflow
+
+
 (venv) C:\Users\Anuj Kushwaha\ai-workflow-agent>python -m app.main 
 ============================================================
 AI Workflow Automation System
@@ -83,7 +86,7 @@ DECISION RESULT
 ============================================================
 FINAL OUTPUT
 ============================================================
-[{'sku': 'P001', 'product_name': 'Blue Cotton Shirt', 'current_stock': 8, 'minimum_stock': 20, 'reorder_quantity': 12}, {'sku': 'P003', 'product_name': 'Running Shoes', 'current_stock': 5, 'minimum_stock': 15, 'reorder_quantity': 10}, {'sku': 'P005', 'product_name': 'Cotton Hoodie', 'current_stock': 10, 'minimum_stock': 25, 'reorder_quantity': 15}] (venv) C:\Users\Anuj Kushwaha\ai-workflow-agent>python -m app.main 
+[{'sku': 'P001', 'product_name': 'Blue Cotton Shirt', 'current_stock': 8, 'minimum_stock': 20, 'reorder_quantity': 12}, {'sku': 'P003', 'product_name': 'Running Shoes', 'current_stock': 5, 'minimum_stock': 15, 'reorder_quantity'############# 1. the First workflow: 10}, {'sku': 'P005', 'product_name': 'Cotton Hoodie', 'current_stock': 10, 'minimum_stock': 25, 'reorder_quantity': 15}] (venv) C:\Users\Anuj Kushwaha\ai-workflow-agent>python -m app.main 
 ============================================================
 AI Workflow Automation System
 ============================================================
@@ -178,6 +181,11 @@ DECISION RESULT
 FINAL OUTPUT
 ============================================================
 [{'sku': 'P001', 'product_name': 'Blue Cotton Shirt', 'internal_price': 25, 'vendor_price': 27, 'difference': 2, 'difference_percentage': 8.0, 'exception': False}, {'sku': 'P002', 'product_name': 'Black Jeans', 'internal_price': 40, 'vendor_price': 44, 'difference': 4, 'difference_percentage': 10.0, 'exception': False}, {'sku': 'P003', 'product_name': 'Running Shoes', 'internal_price': 60, 'vendor_price': 58, 'difference': -2, 'difference_percentage': 3.3333333333333335, 'exception': False}, {'sku': 'P004', 'product_name': 'White T Shirt', 'internal_price': 18, 'vendor_price': 20, 'difference': 2, 'difference_percentage': 11.11111111111111, 'exception': True}, {'sku': 'P005', 'product_name': 'Cotton Hoodie', 'internal_price': 35, 'vendor_price': 40, 'difference': 5, 'difference_percentage': 14.285714285714285, 'exception': True}]
+
+
+
+############# 2. the Second workflow
+
 
 (venv) C:\Users\Anuj Kushwaha\ai-workflow-agent>python -m app.main 
 ============================================================
@@ -275,6 +283,11 @@ FINAL OUTPUT
 ============================================================
 {'cleaned_records': 3, 'invalid_records': 2, 'invalid_rows': [{'sku': nan, 'product_name': 'Running Shoes', 'category': 'Footwear', 'price': 60, 'material': 'Mesh', 'is_invalid': True}, {'sku': 'V004', 'product_name': nan, 'category': 'T-Shirts', 'price': 18, 'material': 'Cotton', 'is_invalid': True}]}
 
+
+
+############# 3. the Third workflow
+
+
 (venv) C:\Users\Anuj Kushwaha\ai-workflow-agent>python -m app.main 
 ============================================================
 AI Workflow Automation System
@@ -361,6 +374,11 @@ DECISION RESULT
 FINAL OUTPUT
 ============================================================
 {'product_content': '{\n    "description": "Upgrade your work wardrobe with the Blue Cotton Shirt, designed specifically for young professionals. Crafted from high-quality cotton, this blue shirt offers both style and comfort for your daily office needs. Additional product features and specifications are not provided.",\n    "short_description": "A stylish blue cotton shirt for young professionals. Material and color details are provided; other information is not provided.",\n    "seo_title": "Blue Cotton Shirt for Young Professionals",\n    "meta_description": "Shop the Blue Cotton Shirt made for young professionals. Comfortable cotton material in a stylish blue color. Other details are not provided.",\n    "category": "Shirts",\n    "material": "Cotton",\n    "color": "Blue",\n    "target_audience": "Young professionals"\n}'}
+
+
+
+############# 4. the Fourth workflow
+
 
 (venv) C:\Users\Anuj Kushwaha\ai-workflow-agent>python -m app.main 
 ============================================================
@@ -449,6 +467,9 @@ FINAL OUTPUT
 ============================================================
 {'order_id': 'ORD-1001', 'customer': 'Rahul', 'items': 'Blue Cotton Shirt, Black Jeans', 'order_status': 'Shipped', 'shipment_status': 'In Transit', 'tracking_number': 'TRK10001', 'carrier': 'DemoExpress'}
 
+
+
+############# 5. the Fifth workflow
 (venv) C:\Users\Anuj Kushwaha\ai-workflow-agent>python -m app.main 
 ============================================================
 AI Workflow Automation System
@@ -545,6 +566,9 @@ FINAL OUTPUT
 ============================================================
 {'duplicate_groups': [{'type': 'attribute_similarity', 'confidence': 'possible', 'products': [{'sku': 'P001', 'product_name': 'Blue Cotton Shirt', 'category': 'Shirts', 'material': 'Cotton', 'color': 'Blue'}, {'sku': 'P002', 'product_name': 'Blue Cotton Shirt', 'category': 'Shirts', 'material': 'Cotton', 'color': 'Blue'}]}], 'total_groups': 1}
 
+
+
+############# 6. the sixth workflow
 (venv) C:\Users\Anuj Kushwaha\ai-workflow-agent>python -m app.main 
 ============================================================
 AI Workflow Automation System
@@ -605,6 +629,11 @@ Output: {'status': 'missing_information', 'message': 'Before I can create the ca
 ADDITIONAL INFORMATION REQUIRED
 ============================================================
 Before I can create the campaign brief, please provide: campaign dates.
+
+
+
+############# 7. the seventh workflow
+
 
 (venv) C:\Users\Anuj Kushwaha\ai-workflow-agent>python -m app.main "Create a campaign brief for the new collection. The campaign goal is to launch our new collection and increase sales. The campaign dates are October 15 to October 31. Target audience is online shoppers. Promotion is 20% off."
 ============================================================
@@ -702,6 +731,12 @@ FINAL OUTPUT
 ============================================================
 {'objective': 'launch our new collection and increase sales', 'products': [], 'messaging': '# Marketing Campaign Brief\n\n## 1. Campaign Overview\n* **Campaign Goal:** Launch our new collection and increase sales\n* **Dates:** October 15 to October 31\n* **Promotion:** 20% off\n\n## 2. Target Audience\n* **Audience:** Online shoppers\n\n## 3. Campaign Channels & Execution\n* **Online/E-commerce Promotion:** Highlight the 20% off promotion across digital touchpoints to incentivize online shoppers between October 15 and October 31.\n* **Collection Launch:** Feature the new collection prominently for online shoppers during the campaign window.', 'channels': ['Email', 'Social Media', 'Website'], 'timeline': 'October 15 to October 31', 'checklist': ['Confirm campaign objective', 'Confirm target audience', 'Prepare campaign messaging', 'Prepare creative assets', 'Schedule campaign', 'Monitor campaign performance']}
 
+
+
+############# 8. the Eight workflow
+
+
+
 (venv) C:\Users\Anuj Kushwaha\ai-workflow-agent>python -m app.main 
 ============================================================
 AI Workflow Automation System
@@ -798,6 +833,14 @@ FINAL OUTPUT
 ============================================================
 [{'keyword': 'how to wash cotton shirt', 'intent': 'informational', 'category': 'Shirts', 'priority': 'medium'}, {'keyword': 'buy blue cotton shirt', 'intent': 'transactional', 'category': 'Shirts', 'priority': 'high'}, {'keyword': 'blue cotton shirt price', 'intent': 'commercial', 'category': 'Shirts', 'priority': 'medium'}, {'keyword': 'running shoes', 'intent': 'commercial', 'category': 'Footwear', 'priority': 'medium'}, {'keyword': 'best running shoes for beginners', 'intent': 'informational', 'category': 'Footwear', 'priority': 'medium'}, {'keyword': 'black jeans buy online', 'intent': 'transactional', 'category': 'Jeans', 'priority': 'high'}, {'keyword': 'company about us', 'intent': 'navigational', 'category': 'General', 'priority': 'medium'}, {'keyword': 'cotton hoodie', 'intent': 'commercial', 'category': 'Hoodies', 'priority': 'medium'}, {'keyword': 'cotton hoodie price', 'intent': 'commercial', 'category': 'Hoodies', 'priority': 'medium'}, {'keyword': 'how to style jeans', 'intent': 'informational', 'category': 'Jeans', 'priority': 'medium'}]
 
+
+
+############# 9. the Nineth workflow
+
+
+
+
+
 (venv) C:\Users\Anuj Kushwaha\ai-workflow-agent>python -m app.main 
 ============================================================
 AI Workflow Automation System
@@ -893,6 +936,11 @@ DECISION RESULT
 FINAL OUTPUT
 ============================================================
 {'employee_id': 'E004', 'employee_name': 'Sneha', 'task': 'Assign this urgent task to the best available developer.', 'reason': 'Selected based on skill match and available workload capacity.', 'priority': 'urgent', 'deadline': None}
+
+
+
+############# 10. the Tenth workflow
+
 
 (venv) C:\Users\Anuj Kushwaha\ai-workflow-agent>python -m app.main 
 ============================================================
