@@ -1,0 +1,5 @@
+employee_id,employee_name,skills,workload
+E001,Aman,"python,django,rest api",40
+E002,Neha,"python,fastapi,sql",20
+E003,Rohit,"react,javascript,html,css",35
+E004,Sneha,"python,sql,machine learning",15

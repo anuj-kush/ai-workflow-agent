@@ -1,0 +1,11 @@
+workflow_id,step_name,status,execution_time,error
+WF001,Load inventory,success,1.2,
+WF001,Check stock,success,1.5,
+WF002,Compare prices,success,2.1,
+WF002,Generate report,failed,5.5,Vendor data mismatch
+WF003,Validate vendor file,success,1.8,
+WF004,Generate description,success,8.5,
+WF005,Search order,success,1.1,
+WF006,Find duplicates,success,3.4,
+WF007,Generate brief,success,7.2,
+WF008,Classify keywords,failed,4.2,Invalid keyword row

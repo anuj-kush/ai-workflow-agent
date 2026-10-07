@@ -1,0 +1,4 @@
+order_id,shipment_status,tracking_number,carrier
+ORD-1001,In Transit,TRK10001,DemoExpress
+ORD-1002,Preparing,,DemoExpress
+ORD-1003,Delivered,TRK10003,DemoExpress

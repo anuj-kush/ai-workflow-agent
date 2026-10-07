@@ -1,0 +1,4 @@
+order_id,customer_email,customer_name,items,status
+ORD-1001,customer1@example.com,Rahul,"Blue Cotton Shirt, Black Jeans",Shipped
+ORD-1002,customer2@example.com,Priya,Running Shoes,Processing
+ORD-1003,customer3@example.com,Amit,Cotton Hoodie,Delivered
